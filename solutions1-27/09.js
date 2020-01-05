@@ -52,7 +52,7 @@ function() {
     list.videos.forEach( function(video) {
     	allVideoIdsInMovieLists.push(video.id);
     })
-  })
+  });
 	// ------------   INSERT CODE HERE!  -----------------------------------
 
 	return allVideoIdsInMovieLists;
